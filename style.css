@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #00a285;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+header ul li{
+    list-style: none;
+    text-align: center;
+}
+
+header ul li a{
+    text-decoration: none;
+}
+
+header img{
+    height: 50px;
+}
+
+header button{
+   width: 100px;
+   height: 20px;
+   background-color: rgb(0, 0, 0);
+   color: aliceblue;
+}
+
+
+
+
+#home{
+    width: 100%;
+    height: 100vh;
+    background-color: rebeccapurple;
+    background-image: url('car.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position:  center ; */
+}
